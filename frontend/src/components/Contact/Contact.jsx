@@ -16,7 +16,7 @@ const Contact = () => {
     e.preventDefault();
   try {
     const{data} = await axios.post(
-      "http://localhost:4000/api/v1/reservation/send",
+      "https://kind-lime-kitten-ring.cyclic.app/api/v1/reservation/send",
       {firstName, email, information},
       {
         headers:{
